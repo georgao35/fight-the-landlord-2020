@@ -8,17 +8,25 @@
 #### 二、客户端工作流程
 
 1. 准备界面在点击准备界面上的连接后，将尝试连接，当三个客户端互相连接成功后，自动转到游戏界面<img src="/Users/gaojingyue/Library/Application Support/typora-user-images/截屏2020-09-04 下午8.08.04.png" alt="截屏2020-09-04 下午8.08.04" style="zoom: 25%;" />
-2. 
+2. 在进入游戏界面后可以进行叫地主等操作，前面玩家是否叫地主将会展示出来；叫地主和打牌的顺序都遵循下家在右侧的原则；
 
-<img src="/Users/gaojingyue/Library/Application Support/typora-user-images/截屏2020-09-04 下午8.14.42.png" alt="截屏2020-09-04 下午8.14.42" style="zoom: 25%;" /><img src="/Users/gaojingyue/Library/Application Support/typora-user-images/截屏2020-09-04 下午8.31.16.png" alt="截屏2020-09-04 下午8.31.16" style="zoom:25%;" />
+<img src="/Users/gaojingyue/Library/Application Support/typora-user-images/截屏2020-09-04 下午8.14.42.png" alt="截屏2020-09-04 下午8.14.42" style="zoom: 25%;" />
+
+在叫完地主后，各玩家的身份以及剩余的牌数将会展示在用户的下方；从地主开始轮流出牌，点击牌将向上浮起；若不出则将在用户旁边显示“不出”，直到这个用户出牌了；当前用户有牌权时，不出按钮将会失效。
+
+<img src="/Users/gaojingyue/Documents/CST/qt/cardgame/截屏2020-09-04 下午8.38.23.png" alt="截屏2020-09-04 下午8.38.23" style="zoom:25%;" />
+
+当一个玩家打完所有牌时，游戏结束，将有弹窗提示当前玩家的胜负，界面将会出现“重新开始”和“退出”两个按钮；当所有玩家都选择重新开始后，将会重新开始一轮游戏；若有玩家选择退出，应用则将关闭。
+
+#### 三、基本框架
 
 
 
-### 三、通信协议
+#### 四、通信协议
 
 
 
-#### 四、规则设计流程
+#### 五、规则设计流程
 
 
 

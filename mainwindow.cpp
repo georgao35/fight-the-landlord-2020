@@ -123,7 +123,9 @@ void MainWindow::yes(){
             for(int i=0;i<2;++i){
                 playerBuchuDisp[i]->setText(tr(""));
                 playerRemainDisp[i]->setText(tr(""));
+                playerInfoDisp[i]->setText(tr(""));
             }
+            ui->landlordOrNot->setText(tr(""));
             game->handleGameAgain();
         }
         default:
