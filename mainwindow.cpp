@@ -120,6 +120,10 @@ void MainWindow::yes(){
             scene->clear();
             constScene->clear();
             ui->onBoardView->scene()->clear();
+            for(int i=0;i<2;++i){
+                playerBuchuDisp[i]->setText(tr(""));
+                playerRemainDisp[i]->setText(tr(""));
+            }
             game->handleGameAgain();
         }
         default:

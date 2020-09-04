@@ -73,6 +73,7 @@ void gamecontroller::handleInput()
             case end:{
                 if(str == "yes"){
                     status = uninitialized;
+                    window->setButtonsVisibility();
                     socket->write(QByteArray("received"));
                     socket->flush();
                 }else if(str == "no"){
