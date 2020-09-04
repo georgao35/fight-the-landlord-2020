@@ -1,0 +1,61 @@
+<RCC>
+    <qresource prefix="/cards">
+        <file alias="cards/BJ.png">cards/BLACK JOKER.png</file>
+        <file>cards/C1.png</file>
+        <file>cards/C2.png</file>
+        <file>cards/C3.png</file>
+        <file>cards/C4.png</file>
+        <file>cards/C5.png</file>
+        <file>cards/C6.png</file>
+        <file>cards/C7.png</file>
+        <file>cards/C8.png</file>
+        <file>cards/C9.png</file>
+        <file>cards/C10.png</file>
+        <file>cards/CJ.png</file>
+        <file>cards/CK.png</file>
+        <file>cards/CQ.png</file>
+        <file>cards/D1.png</file>
+        <file>cards/D2.png</file>
+        <file>cards/D3.png</file>
+        <file>cards/D4.png</file>
+        <file>cards/D5.png</file>
+        <file>cards/D6.png</file>
+        <file>cards/D7.png</file>
+        <file>cards/D8.png</file>
+        <file>cards/D9.png</file>
+        <file>cards/D10.png</file>
+        <file>cards/DJ.png</file>
+        <file>cards/DK.png</file>
+        <file>cards/DQ.png</file>
+        <file>cards/H1.png</file>
+        <file>cards/H2.png</file>
+        <file>cards/H3.png</file>
+        <file>cards/H4.png</file>
+        <file>cards/H5.png</file>
+        <file>cards/H6.png</file>
+        <file>cards/H7.png</file>
+        <file>cards/H8.png</file>
+        <file>cards/H9.png</file>
+        <file>cards/H10.png</file>
+        <file>cards/HJ.png</file>
+        <file>cards/HK.png</file>
+        <file>cards/HQ.png</file>
+        <file alias="cards/RJ.png">cards/RED JOKER.png</file>
+        <file>cards/S1.png</file>
+        <file>cards/S2.png</file>
+        <file>cards/S3.png</file>
+        <file>cards/S4.png</file>
+        <file>cards/S5.png</file>
+        <file>cards/S6.png</file>
+        <file>cards/S7.png</file>
+        <file>cards/S8.png</file>
+        <file>cards/S9.png</file>
+        <file>cards/S10.png</file>
+        <file>cards/SJ.png</file>
+        <file>cards/SK.png</file>
+        <file>cards/SQ.png</file>
+    </qresource>
+    <qresource prefix="/profile">
+        <file>human-icon.png</file>
+    </qresource>
+</RCC>
